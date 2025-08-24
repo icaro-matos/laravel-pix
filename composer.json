@@ -10,13 +10,13 @@
         "pagamentos"
     ],
     "require": {
-    "php": "^8.2",
-    "illuminate/support": "^12.0",
-    "guzzlehttp/guzzle": "^7.8",
-    "mpdf/qrcode": "^1.1",
-    "symfony/psr-http-message-bridge": "^2.1",
-    "symfony/http-foundation": "^7.2 || ^7.3"
-},
+        "php": "^8.2",
+        "illuminate/support": "^12.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "mpdf/qrcode": "^1.1",
+        "symfony/psr-http-message-bridge": "^2.1",
+        "symfony/http-foundation": "^7.2 || ^7.3"
+    },
     "require-dev": {
         "orchestra/testbench": "^8.0",
         "phpunit/phpunit": "^10.0",
