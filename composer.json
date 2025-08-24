@@ -1,30 +1,31 @@
 {
-    "name": "mateusjunges/laravel-pix",
-    "description": "PIX integration with Laravel",
+    "name": "icaro-matos/laravel-pix",
+    "description": "Integração do PIX com Laravel (fork atualizado do mateusjunges/laravel-pix).",
     "type": "library",
     "keywords": [
         "laravel",
-        "junges",
         "pix",
         "bacen",
-        "pix-api"
+        "pix-api",
+        "pagamentos"
     ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^8.2",
+        "illuminate/support": "^12.0",
+        "guzzlehttp/guzzle": "^7.8",
         "mpdf/qrcode": "^1.1",
         "symfony/psr-http-message-bridge": "^2.1"
     },
     "require-dev": {
-        "orchestra/testbench": "^5.0|^6.0",
-        "phpunit/phpunit": "^8.0|^9.0",
-        "guzzlehttp/guzzle": "^7.3",
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^10.0",
         "ext-json": "*"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "mateusjunges",
-            "email": "mateus@junges.dev"
+            "name": "Ícaro Matos",
+            "email": "seu-email@exemplo.com"
         }
     ],
     "autoload": {
@@ -46,5 +47,7 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit tests"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
